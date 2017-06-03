@@ -1,0 +1,28 @@
+{
+  "name"        : "blueblazeassociates/php-on-siteground",
+  "description" : "Helper scripts for running PHP on SiteGround shared accounts.",
+  "type"        : "project",
+  "homepage"    : "https://github.com/blueblazeassociates/php-on-siteground",
+  "license" : [
+    "GPL-2.0+"
+  ],
+  "authors" : [{
+      "name"     : "Ed Gifford",
+      "homepage" : "http://www.blueblazeassociates.com",
+      "role"     : "Developer",
+      "email"    : "egifford@blueblazeassociates.com"
+    }
+  ],
+  "require" : {
+    "php" : ">=7.0.0",
+  
+    "symfony/console"     : "~3.3.0",
+    "webmozart/path-util" : "~2.3.0",
+    "twig/twig"           : "~2.3.2"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "BlueBlazeAssociates\\Technology\\PHP\\PHPOnSiteGround\\" : "src/php/"
+    }
+  }
+}
